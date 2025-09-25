@@ -1,0 +1,54 @@
+.navbar {
+  position: fixed;
+  width: 1200px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fff;
+  z-index: 999;
+  .wraper {
+    position: relative;
+} & {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    width: 100%;
+    background: white;
+    transition: 0.3s ease;
+} &-list {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+  }
+  &-items {
+  height: 15px;
+  transition: all 1s ease;
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  /* identical to box height, or 125% */
+  letter-spacing: 0.923077px;
+  text-transform: uppercase;
+
+  color: #83888F;
+
+  &:hover {
+    color: black;
+    transform: scale(1.1);
+  }
+  }
+  &-img {
+    width: 236px;
+    height: 26px; 
+  }
+  &-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+  }
+}

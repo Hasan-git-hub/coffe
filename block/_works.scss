@@ -1,0 +1,96 @@
+.works {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 69px;
+
+  &__title {
+
+    height: 32px;
+
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    /* identical to box height, or 133% */
+
+    color: #83888F;
+  }
+
+  &__lines {
+    position: relative;
+  }
+
+  .circle_1 {
+    left: -10px;
+  }
+  .circle_2 {
+    left: 370px;
+  }
+  .circle_3 {
+    left: 740px;
+  }
+
+  &__cards {
+    display: flex;
+    justify-content: center;
+    gap: 95px;
+    flex-wrap: wrap;
+  }
+
+  &__items {
+    width: 285px;
+    display: flex;
+    flex-direction: column;
+    gap: 42px;
+  }
+
+  &__items-title {
+
+    height: 72px;
+
+
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 72px;
+    /* identical to box height, or 100% */
+
+    color: #FDD6BA;
+
+  }
+
+  &__items-sup-title {
+
+    height: 73px;
+
+
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 36px;
+    /* or 112% */
+
+    color: #333D4B;
+
+  }
+  
+  &__items-text {
+
+
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    /* or 162% */
+
+    color: #333D4B;
+
+
+  }
+
+}
