@@ -1,0 +1,46 @@
+.about-article {
+    position: relative;
+    display: flex;
+    align-items: center;
+    background-color: #2C343E;
+    height: 474px;
+    border-radius: 16px;
+    
+    &-cont {
+        margin-top: 160px;
+    }
+    &-left {
+        width: 540px;
+        height: 210px;
+        display: flex;
+        gap: 24px;
+        flex-direction: column;
+        margin-left: 85px;
+    }
+    &-title {
+        font-family: 'Fraunces 9pt';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 40px;
+        line-height: 48px;
+
+        color: #FEFCF7;
+    }
+    &-text {
+        font-family: 'Barlow';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        color: #FEFCF7;
+        opacity: 0.8;
+    }
+    &-img {
+        position: absolute;
+        right: 85px;
+        bottom: 85px;
+        width: 445px;
+        height: 474px;
+        border-radius: 16px;
+    }
+}

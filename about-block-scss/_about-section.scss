@@ -1,0 +1,39 @@
+.about-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 125px;
+
+    &-cont {
+        margin-top: 160px;
+    }
+    &-left , &-img  {
+        width: 445px;
+        height: 520px;
+    }
+    &-right {
+        width: 540px;
+        height: 340px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 32px;
+    }
+    &-title {
+        font-family: 'Fraunces 9pt';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 40px;
+        line-height: 48px;
+        color: #333D4B;
+    }
+    &-text {
+        font-family: 'Barlow';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        color: #333D4B;
+        opacity: 0.8;
+    }
+}

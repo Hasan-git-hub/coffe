@@ -1,0 +1,50 @@
+.about-main {
+    display: flex;
+    align-items: start;
+
+    &-cont {
+        margin-top: 165px;
+    }
+    &-top {
+        font-family: 'Fraunces 9pt';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 32px;
+
+        color: #83888F;
+    }
+    &-bottom {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 70px;
+        width: 1045px;
+
+        &-title {
+            font-family: 'Fraunces 9pt';
+            font-style: normal;
+            font-weight: 900;
+            font-size: 32px;
+            line-height: 36px;
+
+            color: #333D4B;
+        }
+        &-box {
+            margin-top: 45px;
+        }
+    }
+    &-list {
+        display: flex;
+        flex-direction: column;
+        margin-top: 15px;
+    }
+    &-items {
+        font-family: 'Barlow';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        color: #333D4B;
+    }
+}
