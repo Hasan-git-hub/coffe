@@ -1,0 +1,37 @@
+.complited-navbar {
+  display: flex;
+  align-items: center;
+  background: url(/images/back-img-page-3.png) no-repeat center/cover;
+  height: 450px;
+  border-radius: 16px;
+
+  &-cont {
+    margin-top: 140px;
+  }
+  &-box {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    width: 445px;
+    height: 175px;
+    margin-left: 65px;
+    color: white;
+  }
+  &-title {
+    font-family: 'Fraunces 9pt';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+
+    color: #FEFCF7;
+  }
+  &-text {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FEFCF7;
+  }
+}
