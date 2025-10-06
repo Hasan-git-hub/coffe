@@ -70,5 +70,13 @@ footer {
   transform: scale(1.03);
   color: rgb(255, 0, 0);
 } 
+@media only screen and (max-width: 500px) {
+  body {
+    padding: 0 20px;
+  }
+  .contain {
+    padding: 40px;
+  }
+} 
 
 

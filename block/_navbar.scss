@@ -1,3 +1,16 @@
+.burger-box {
+  display: none;
+  align-items: center;
+  flex-direction: column;
+  gap: 2px;
+}
+.burger {
+  width: 16px;
+  height: 3px;
+  color: black;
+  background-color: black;
+  border: 1px solid black;
+}
 .navbar {
   position: fixed;
   width: 1200px;
@@ -51,4 +64,20 @@
     justify-content: space-between;
 
   }
+}
+@media only screen and (max-width: 500px) {
+  body , .contain {
+    padding: none !important;
+  }
+  .burger-box {
+    display: flex;
+  }
+  .navbar {
+    width: 100%;
+
+    &-list {
+      display: none;
+    }
+  }
+
 }

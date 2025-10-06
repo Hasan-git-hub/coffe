@@ -71,3 +71,12 @@
   }
 
 }
+@media only screen and (max-width: 500px) {
+  .collection {
+    padding: none;
+
+    &__main-title {
+      display: none;
+    }
+  }
+}
