@@ -37,3 +37,33 @@
         opacity: 0.8;
     }
 }
+@media only screen and (max-width : 500px) {
+  .about-section {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+    height: 1200px;
+
+    &-img {
+        width: 100%;
+    }
+    &-left {
+        width: 100%;
+        margin: auto;
+    }
+    &-right {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+    }
+    &-title {
+        width: 90%;
+    }
+    &-text {
+        width: 90%;
+    }
+  }
+}

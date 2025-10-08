@@ -44,3 +44,44 @@
         border-radius: 16px;
     }
 }
+.img-for-500 {
+    display: none;
+}
+@media only screen and (max-width : 500px) {
+  .about-article {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column-reverse;
+    padding: 0 20px;
+    height: 550px;
+    justify-content: center;
+
+    &-cont {
+        margin-top: 250px;
+    }
+    &-img {
+        display: none;
+    }
+    &-title {
+        width: 100%;
+        margin: 0px;
+    }
+    &-text {
+        width: 100%;
+        margin: opx;
+    }
+    &-left {
+        width: 100%;
+        margin: 0px ;
+    }
+  }
+  .img-for-500 {
+    display: flex;
+    width: 80%;
+    height: 160px;
+    top: -15%;
+    left: 10%;
+  }
+}
