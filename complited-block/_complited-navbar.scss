@@ -1,0 +1,248 @@
+.Preferences{
+    width: 1110px;
+    margin: auto;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+
+    &_right{
+    width: 255px;
+    height: 356px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-between;
+    word-spacing: 14px;
+
+    &_text{
+
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+
+    color: #333d4b7e;
+
+    &:nth-child(9){
+
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+
+    color: #333D4B;
+    }
+    }
+    }
+
+    &_left{
+    width: 730px;
+    height: 2000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    &_drink{
+    width: 730px;
+    height: 354px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    &_top{
+    width: 730px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    &_text{
+
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+
+    color: #83888F;
+
+    }
+
+    &_icon{
+    width: 32px;
+    height: 32px;
+    transform: rotate(180deg);
+    }
+    }
+
+    &_buttom{
+    width: 730px;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    &_div1{
+    width: 228px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: transparent;
+    border-radius: 16px;
+    background-color: #F4F1EB;
+    padding: 10px 20px;
+    &:hover {
+        background-color: aqua;
+        text-decoration: white;
+    }
+    }
+
+    &_div{
+    width: 228px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 16px;
+    background-color: #F4F1EB;
+    padding: 10px 20px;
+    &:hover {
+        background-color: aqua;
+        text-decoration: white;
+    }
+
+
+
+    &_text{
+    width: 178px;
+
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+
+    color: #333D4B;
+
+    }
+
+    &_text4{
+    width: 178px;
+
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+
+    color: #333D4B;
+    }
+
+    &_text2{
+    width: 178px;
+    height: 78px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+
+    color: #333d4be0;
+
+    }
+
+    &_text3{
+    width: 178px;
+    height: 78px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+
+    color: #333D4B;
+    }
+    }
+    }
+    }
+    }
+}
+
+@media only screen and (max-width: 512px) {
+    .Preferences{
+        width: 90%;
+        height: 3100px;
+        
+        &_right{
+            display: none;
+        }
+
+        &_left{
+            width: 90%;
+            height: 3000px;
+            margin: auto;
+            
+            &_drink{
+                width: 90%;
+                height: 540px;
+
+                &_top{
+                    width: 90%;
+                    height: 56px;
+                    margin: auto;
+
+                    &_text{
+                        width: 240px;
+                        font-size: 20px;
+                        line-height: 22px;
+                    }
+
+                    &_icon{
+                        width: 30px;
+                        height: 30px;
+                    }
+                }
+
+                &_buttom{
+                    width: 90%;
+                    height: 452px;
+                    margin: auto;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: space-between;
+                    gap: 10px;
+
+                    &_div{
+                        width: 342px;
+                        height: 140px;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: start;
+                        justify-content: space-around;
+                    }
+
+                    &_div1{
+                        width: 342px;
+                        height: 140px;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: start;
+                        justify-content: space-around;
+                    }
+                }
+            }
+        }
+    }
+}
+@media only screen and (max-width : 500px) {
+    .Preferences_left_drink_top {
+        justify-content: none;
+        gap: 30px;
+    }
+}
